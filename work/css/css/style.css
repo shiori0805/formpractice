@@ -71,7 +71,7 @@ display: flex;
   color: #545658;
   box-sizing: border-box;
   border: 1px solid #d9d9d9;
-  background-color: #fbfbfb;
+  background: #fbfbfb;
 }
 
 .input_area:focus{
@@ -135,12 +135,13 @@ display: flex;
 span:after{
   content: "";
   position: absolute;
-  top: 50px;
+  top: 50%;
   left: 4px;
   width: 8px;
   height: 8px;
   background-color: #017cbf;
   border-radius: 50%;
+  transform: translateY(-50%);
 }
 
 .subscription_label{
