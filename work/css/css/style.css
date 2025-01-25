@@ -35,7 +35,7 @@ input,select,button{
 }
 
 .is_flex{
-display: flex;
+  display: flex;
 }
 
 .personal_content, .account_content, .contact_content, .subscription_content, .submit_content{
@@ -77,12 +77,11 @@ display: flex;
 .input_area:focus{
   background-color: #fff;
   border-color: rgba(93,130,194,0.4);
-  box-shadow: 0px 0px 0px 2px rgba(1,90,191,0.1);
+  box-shadow: 0px 0px 0px 2px rgba(1, 90, 191, 0.1);
 }
 
 .select_area, .gender_area{
   margin-top: 6px;
-  position: relative;
 }
 
 .select_unit{
@@ -168,10 +167,10 @@ span:after{
   left: 6px;
   width: 6px;
   height: 13px;
-margin-top: -11px;
-border-right: 3px solid #0140bf;
-border-bottom: 3px solid #0140bf;
-transform: rotate(45deg);
+  margin-top: -11px;
+  border-right: 3px solid #0140bf;
+  border-bottom: 3px solid #0140bf;
+  transform: rotate(45deg);
 }
 
 .btn{
